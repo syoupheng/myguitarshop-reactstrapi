@@ -1,0 +1,7 @@
+.error {
+    color: #e53e3e
+}
+
+.invalid-input {
+    border: 1px solid #e53e3e !important;
+}

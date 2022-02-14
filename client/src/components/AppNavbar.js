@@ -23,6 +23,7 @@ class AppNavbar extends Component {
               <Link className="nav-link" to="/">
                 <i class="bi bi-cart h4"></i>
               </Link>
+              <Link className="nav-link" to="/register">Sign Up</Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

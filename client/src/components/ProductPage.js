@@ -11,7 +11,7 @@ export default function ProductPage({ product }) {
           <h2>{product.attributes.title}</h2>
           <div>{product.attributes.unit_price} €</div>
           <hr className='my-5'></hr>
-          <AddToCartForm />
+          <AddToCartForm product={product}/>
         </Col>
         <Col>
           <img src={product.attributes.images.data ? product.attributes.images.data[0].attributes.formats.medium.url : ""} alt="No Photo"></img>

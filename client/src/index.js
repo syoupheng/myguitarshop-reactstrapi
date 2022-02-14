@@ -14,6 +14,7 @@ import Home from './routes/home';
 import Alert from 'react-bootstrap/Alert';
 import Container from 'react-bootstrap/esm/Container';
 import Product from './routes/product';
+import RegisterPage from './routes/register';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<App />}>
             <Route index element={<Home />} />
+            <Route path="register" element={<RegisterPage />} />
             <Route path="products" element={<Products />} />     
             <Route path="products/:productId" element={<Product />} />       
             <Route
